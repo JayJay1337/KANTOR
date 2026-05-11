@@ -4,7 +4,7 @@ Prosty projekt fullstack (client + server) do obsługi aplikacji kantorowej.
 
 ---
 
-# 📁 Struktura projektu
+# Struktura projektu
 
 ```
 KANTOR/
@@ -16,7 +16,7 @@ KANTOR/
 
 ---
 
-# ⚙️ Instalacja projektu
+# Instalacja projektu
 
 ## 1. Backend (server)
 
@@ -50,9 +50,9 @@ npm install
 
 ---
 
-# ▶️ Uruchamianie projektu
+# Uruchamianie projektu
 
-## 🔵 Backend (server)
+## Backend (server)
 
 W folderze `server` uruchom:
 
@@ -68,7 +68,7 @@ http://localhost:3000
 
 ---
 
-## 🟢 Frontend (client)
+## Frontend (client)
 
 W folderze `client` uruchom:
 
@@ -87,7 +87,7 @@ http://localhost:5173
 
 ---
 
-# 📌 Kolejność uruchamiania
+# Kolejność uruchamiania
 
 1. `cd server`
 2. `npm install`
