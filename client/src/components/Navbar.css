@@ -1,0 +1,33 @@
+nav {
+    width: 250px;
+    height: 100vh;
+    background: #0f1724;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.nav-link {
+    display: block;
+    padding: 12px;
+    margin: 6px 0;
+    background: #0f1724;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.nav-link:hover {
+    background: #0a111a;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.navBar-bottom {
+    margin-top: auto;
+    opacity: 0.5;
+    text-align: center;
+}

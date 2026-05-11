@@ -1,0 +1,87 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #0f1724;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #1c2937;
+    border-radius: 8px;
+    background: #1c2937;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+form div:last-child {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button[type="submit"] {
+    background: #3b82f6;
+    color: white;
+}
+
+form button[type="submit"]:hover {
+    background: #2563eb;
+}
+
+form button[type="button"] {
+    background: #374151;
+    color: white;
+}
+
+form button[type="button"]:hover {
+    background: #1f2937;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #f9fafb;
+}
+.error {
+    color: #f87171;
+    font-size: 14px;
+    margin-top: 4px;
+}
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #0a111a;
+    margin: 10px;
+}
